@@ -13,7 +13,7 @@ You'll need to sign in to Xiaomi Cloud (i.mi.com) and grab the cookie for one of
 4) Check preserve log
 5) Enter in filter box "status?ts" (no quotes)
 6) Back in the new tab, browse to "i.mi.com", sign in if required
-7) Go back to dev tools, you should see a request appear for "status?ts=<some extra numbers here>", double-click on it
+7) Go back to dev tools, you should see a request appear for "status?ts=a timestamp here", double-click on it
 8) Under the headers tab on the right menu, look under "Request Headers" for the "Cookie" value
 9) Copy cookie and paste when prompted for it
 10) Provide a path where to save the downloaded files
@@ -21,9 +21,14 @@ You'll need to sign in to Xiaomi Cloud (i.mi.com) and grab the cookie for one of
 
 
 Known issues:
+
 Video files don't seem to play once downloaded.
+
 Most metadata is lost when downloaded.
 
+
 Requirements:
+
 Python 3.6+
+
 requests module installed (pip install requests)
