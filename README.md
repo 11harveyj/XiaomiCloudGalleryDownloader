@@ -4,6 +4,17 @@ Download all the images stored in your Xiaomi Cloud account
 Found that you can't perform an easy "take out" like you can with a Google account from Xiaomi Cloud so this downloader should help.
 
 Provided as-is as a very simple script to download.
+## Known issues
+
+Video files don't seem to play once downloaded.
+
+Most metadata is lost when downloaded.
+## Requirements
+
+python 3.6+
+
+requests module installed (pip install requests)
+## Documentation
 
 You'll need to sign in to Xiaomi Cloud (i.mi.com) and grab the cookie for one of the requests with a "?" in.
 
@@ -20,15 +31,3 @@ You'll need to sign in to Xiaomi Cloud (i.mi.com) and grab the cookie for one of
 11) Wait, if you have lots of pictures you may have to do the above a few times, especially if interrupted.
 
 
-Known issues:
-
-Video files don't seem to play once downloaded.
-
-Most metadata is lost when downloaded.
-
-
-Requirements:
-
-Python 3.6+
-
-requests module installed (pip install requests)
